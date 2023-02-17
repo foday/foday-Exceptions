@@ -1,4 +1,4 @@
-public class ExceptionChallenge {
+public class ExceptionChallenge extends Exception{
     /**
      * An exception is an unexpected event that occurs during our program.
      * Most likely, you have already encountered an Exception (ArrayIndexOutOfBounds, etc).
@@ -20,6 +20,27 @@ public class ExceptionChallenge {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow(){
-    }
+
+    //  throw new ExceptionChallenge();
+
+    public void mustThrow() {
+        
+        // String test = null;
+        // try {
+            
+        // }catch(Exception e){
+        //     // System.out.println("Exception thrown");
+        // }
+        
+        // try{
+        //     //     int[] a = new int[]{1,2,3};
+        //     //     System.out.println(a[3]);
+        //      }catch(ArrayIndexOutOfBoundsException e){
+        //          System.out.println("something happened");
+        //      }catch(Exception e){
+        //          System.out.println("An average exception");
+        //      }
+
+         throw (null);
+     }
 }
