@@ -25,7 +25,7 @@ public class ExceptionChallenge extends Exception{
 
     public void mustThrow() {
         
-        // String test = null;
+        //String test = null;
         // try {
             
         // }catch(Exception e){
