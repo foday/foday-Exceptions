@@ -25,21 +25,7 @@ public class ExceptionChallenge extends Exception{
 
     public void mustThrow() {
         
-        //String test = null;
-        // try {
-            
-        // }catch(Exception e){
-        //     // System.out.println("Exception thrown");
-        // }
-        
-        // try{
-        //     //     int[] a = new int[]{1,2,3};
-        //     //     System.out.println(a[3]);
-        //      }catch(ArrayIndexOutOfBoundsException e){
-        //          System.out.println("something happened");
-        //      }catch(Exception e){
-        //          System.out.println("An average exception");
-        //      }
+       
 
          throw (null);
      }
